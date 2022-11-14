@@ -10,9 +10,16 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-.body{
-    margin-top: 148px;
+
+.class{
+    width: 1280px!important;
 }
+.head{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
 .head .head-content{
     box-shadow:  6px 6px 12px #5a5a5a,
     -6px -6px 12px #ffffff;
@@ -99,6 +106,15 @@ body {
   }
 
   @media (min-width: 320px) and (max-width: 480px){
+    .center{
+        overflow: hidden;
+        width: 100%;
+    }
+    .head{
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
     .body{
         margin-top: 118px;
     }
@@ -137,8 +153,6 @@ body {
     }
     .body .body-item2{
         width: 100%;
-        /* display: flex;
-        flex-direction: column; */
         margin-top: 5px;
     }
     .body .image{
@@ -238,6 +252,15 @@ body {
   }
 
   @media (min-width: 481px) and (max-width: 768px){
+    .center{
+        overflow: hidden;
+        width: 100%;
+    }
+    .head{
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
     .body{
         margin-top: 118px;
     }
