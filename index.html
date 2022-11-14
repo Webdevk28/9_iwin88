@@ -20,10 +20,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
-    <section class="container overflow-hidden">
-        <!-- header -->
-        <section>
-            <div class="head fixed w-full z-50">
+    <div class="center flex justify-center items-center">
+        <div class="class flex flex-col">
+            <!-- header -->
+            <div class="head flex flex-col w-full">
                 <div class="head-content flex justify-center items-center bg-blue-800">
                     <!-- menu -->
                     <ul class="head-menu flex justify-evenly w-5/12">
@@ -105,12 +105,10 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- body -->
-        <section>
-            <div class="body flex flex-col">
+            <!-- body -->
+            <div class="body flex flex-col w-full">
                 <!-- body-image -->
-                <div class="body-content flex flex-row w-full px-1">
+                <div class="body-content flex flex-row w-full">
                     <!-- image-left -->
                     <div class="body-item flex flex-row gap-1 cursor-pointer w-6/12">
                         <div class="image flex flex-col gap-1 flex flex-row w-2/6">
@@ -197,13 +195,13 @@
                     </div>
                 </div>
                 <!-- video -->
-                <div class="video  flex justify-center items-center mt-6 p-2">
+                <div class="video  flex justify-center items-center mt-6 p-2 w-full">
                     <div class="body-item w-6/12">
                         <video loop autoplay muted controls autobuffer playsinline src="./images/video.mp4" type="video/mp4"></video>
                     </div>
                 </div>
                 <!-- banner -->
-                <div class="jackpot flex flex-row bg-blue-600 mt-6 py-4">
+                <div class="jackpot flex flex-row bg-blue-600 mt-6 py-4 w-full">
                     <div class="jackpot-item flex justify-center items-center mt-8 w-3/6">
                         <img src="./images/jackpot.jpg" alt="xóc bầu cua" class="w-96 rounded-full">
                     </div>
@@ -217,7 +215,7 @@
                     </div>
                 </div>
                 <!-- slide -->
-                <div class="slide bg-purple-600 bg-cover bg-center" style="background-image: url(./images/cover.jpg)">
+                <div class="slide bg-purple-600 bg-cover bg-center w-full" style="background-image: url(./images/cover.jpg)">
                     <div class="w-2/6 swiper mySwiper py-4 ">
                         <div class="swiper-wrapper">
                         <div class="swiper-slide px-4">
@@ -252,7 +250,7 @@
                     </div>
                 </div>
                 <!-- join -->
-                <div class="join flex justify-center items-center py-4 bg-cyan-800">
+                <div class="join flex justify-center items-center py-4 bg-cyan-800 w-full">
                     <div class="join-content flex flex-row mt-8 w-10/12">
                         <div class="join-item flex flex-col justify-center items-center mx-4 w-2/6">
                             <div class="join-img">
@@ -278,7 +276,7 @@
                     </div>
                 </div>
                 <!-- download -->
-                <div class="download bg-gray-200">
+                <div class="download bg-gray-200 w-full">
                     <div class="download-content flex flex-row py-4">
                         <div class="download-item flex flex-col justify-center items-center w-4/6">
                             <span class="download-text text-3xl text-orange-500 font-bold">Come Visit Jackpot Magic!</span>
@@ -337,7 +335,7 @@
                     </div>
                 </div>
                 <!-- footer -->
-                <div class="footer bg-blue-800">
+                <div class="footer bg-blue-800 w-full">
                     <div class="footer-content flex flex-row py-8">
                         <div class="footer-left flex flex-row w-3/6">
                             <div class="footer-item flex flex-col w-5/12 mx-4">
@@ -424,8 +422,8 @@
                         © 2022, IWIN88, Inc.</span>
                 </div>
             </div>
-        </section>
-    </section>
+        </div>
+    </div>
 
     <!-- script -->
     <script src="../path/to/flowbite/dist/flowbite.js"></script>
